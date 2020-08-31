@@ -7,7 +7,7 @@ import { RepositoriesComponent } from 'src/app/repositories/repositories.compone
 
 import { AppComponent } from 'src/app/app.component';
 import {FormsModule} from '@angular/forms';
-import {RoutingModule} from 'src/app/routing/routing.module'
+// import {RoutingModule} from 'src/app/routing/routing.module'
 
 
 @Component({
