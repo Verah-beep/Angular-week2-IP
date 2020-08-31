@@ -1,7 +1,8 @@
-import { Colour.Directive } from './colour.directive';
+import { ColourDirective } from './colour.directive';
 
-describe('Colour.Directive', () => {
+describe('ColourDirective', () => {
   it('should create an instance', () => {
-    expect(new Colour.Directive()).toBeTruthy();
+    const directive = new ColourDirective();
+    expect(directive).toBeTruthy();
   });
 });
